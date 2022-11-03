@@ -1,0 +1,22 @@
+{
+    "ts-node": {
+        // these options are overrides used only by ts-node
+        // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    },
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "noEmit": true,
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "declaration": true
+    }
+}
